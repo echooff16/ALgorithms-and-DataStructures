@@ -1,6 +1,6 @@
 """
 Assignment
-Question 1: Two Students on a Bus?
+Question 1:
 """
 import heapq
 
@@ -1158,7 +1158,7 @@ def assign(L, roads, students, buses, D, T):
     return allocation
 
 
-"Question 2: Music Pattern Analysis"
+"Question 2:"
 
 
 class SuffixTrie:
