@@ -1,6 +1,6 @@
 # Algorithm and Datastructure Project
 
-## 1 Logistics & Resource Optimisation System (Python)  
+## 1) Logistics & Resource Optimisation System (Python)  
 
 You are organising a study trip for students to an industry partner in another state. The
 industry partner would only support the trip if there are sufficient students joining. You are
@@ -123,7 +123,7 @@ None
 # Return None when there is no valid assignments.
 
 
-## 2 Music Pattern Analytics Tool (Python)
+## 2) Music Pattern Analytics Tool (Python)
 
 You are working for a music streaming company that aims to understand what patterns in
 melodies capture listeners’ attention. Every note in a song tells part of a story, and sequences
