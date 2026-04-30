@@ -91,10 +91,8 @@ roads = [(0,1,3), (0,2,5), (0,3,10), (1,4,1), (2,5,2), (5,6,3),
 students = [4, 10, 8, 12, 12, 13, 13, 13, 13, 13, 13, 13, 13, 5, 7, 7,
 7, 7, 7, 15, 15, 7, 4, 8, 9]
 
-# The buses as tuple (pickup location, minimum capacity, maximum capacity).
-# Example: Bus-1 will pickup the students at location-6 and should transport
-# a minimum of 5 students and a maximum of 10 students inclusive. Bus-3 is
-# observed to have the same arrangements as well.
+The buses as tuple (pickup location, minimum capacity, maximum capacity).
+Example: Bus-1 will pickup the students at location-6 and should transport a minimum of 5 students and a maximum of 10 students inclusive. Bus-3 is observed to have the same arrangements as well.
 buses = [(0, 3, 5), (6, 5, 10), (15, 5, 10), (6, 5, 10)]
 
 # The maximum distance a student is willing to travel to pickup point.
@@ -107,12 +105,12 @@ T = 22
 >>> assign(L, roads, students, buses, D, T)
 [0, 0, -1, 1, 1, 1, 1, 1, 3, 3, 3, 3, 3, -1, -1, 2, 2, 2, 2, 2, 2, 2, 0,
 0, 0]
-# The non-negative integers are the bus IDs that will be boarded by the
-# students if they are going on the trip. It is -1 otherwise.
+The non-negative integers are the bus IDs that will be boarded by the
+students if they are going on the trip. It is -1 otherwise.
 
-# The returned assignment is not unique. An alternative assignment can also
-# be [0, -1, 0, 3, 3, 3, 3, 3, 1, 1, 1, 1, 1, -1, -1, 2, 2, 2, 2, 2, 2, 2,
-# 0, 0, 0]. There are other alternative assignments.
+The returned assignment is not unique. An alternative assignment can also
+be [0, -1, 0, 3, 3, 3, 3, 3, 1, 1, 1, 1, 1, -1, -1, 2, 2, 2, 2, 2, 2, 2,
+0, 0, 0]. There are other alternative assignments.
 
 students = [5, 8, 3, 7, 7, 15, 15, 8, 15, 7, 6, 15]
 buses = [(0, 3, 5), (15, 5, 6)]
